@@ -1,0 +1,107 @@
+
+
+/*hero*/
+
+.B-hero{
+    background-image: url('image/hero section/b19.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 20vh;
+    width: 100%;
+    position: relative;
+}
+
+.B-heroText{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 1rem;
+   line-height: .4rem;
+}
+
+.B-heroText p{
+    color: white;
+}
+
+@media (min-width :675px){
+    .B-hero{
+        height: 40vh;
+    }
+
+    .B-heroText{
+        font-size: 2rem;
+        padding: 5rem;
+        line-height: 1.5rem;
+        
+    }
+}
+
+/*hero end*/
+
+/*blog*/
+
+
+.blog{
+   padding:  2rem;
+   width: 100%;
+}
+
+.blog-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.blog-img img{
+    width: 100%;  
+}
+
+.blog-text{
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.blog-text a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+@media (min-width :675px){
+   
+
+     .blog-box{
+         display: flex;
+         flex-direction:row;
+         width: 100%;
+         align-items: center;
+        
+     }
+
+     .blog-img{
+        width: 50%;
+        height: 50%;
+        padding: 0 4rem;
+       
+     }
+     
+     .blog-img img{
+         width: 100%; 
+         
+     }
+
+     .blog-text{
+        padding-top: 0;
+        padding-right: 4rem;
+        width: 80%;
+        font-size: 1.2rem;
+    }
+     
+
+
+}

@@ -1,0 +1,68 @@
+
+
+
+/*hero*/
+
+.S-hero{
+    background-image: url('image/hero section/b1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 20vh;
+    width: 100%;
+    position: relative;
+}
+
+.S-heroText{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 1rem;
+}
+
+.S-heroText p{
+    color: white;
+}
+
+@media (min-width :675px) {
+    .S-hero{
+        height: 40vh;
+    }
+
+    .S-heroText{
+        font-size: 2rem;
+        padding: 4rem;
+        line-height: 1.5rem;
+        
+    }
+}
+
+/*hero end*/
+
+.Nbuttons{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.Nbuttons button{
+    height: 3rem;
+    width: 3rem;
+    margin: 0 1px;
+    background-color: green;
+    color: white;
+    
+}
+
+
+.Nbuttons button:hover{
+    opacity: .6;
+}
+
+/*Navigate Button end*/
+
+
+
+
